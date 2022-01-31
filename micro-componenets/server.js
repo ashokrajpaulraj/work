@@ -1,7 +1,8 @@
 const express = require("express")
 const session = require("express-session")
 const bodyParser = require("body-parser")
-var port = 3000
+var port = 3001
+//creating a server
 var app = express()
 
 var student = express()
